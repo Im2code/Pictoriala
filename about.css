@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url("Oswald-Light.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.83);
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+nav li, a, button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding:0 20px;
+}
+
+nav li a{
+    transition: all 0.3s ease 0s;
+}
+nav li a:hover{
+    color: red;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(142, 34, 34, 1);
+}
+
+nav img{
+    width: 15em;
+}
+
+header h1{
+    text-align: center;
+    font-family: "Oswald";
+    margin: 10vmin;
+    font-size: 2rem;
+}
+
+section{
+    margin: 5vmin;
+    margin-bottom: 20vmin;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro .text1{
+    width: 30vw;
+    align-items: left;
+    font-family: "Oswald";
+    font-size:2vw;
+}
+
+.text1 h4{
+    margin: 5vh;
+}
+
+.intro img{
+    width: 35vw;
+
+}
+
+.machines{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.machines .text2{
+    width: 65vw;
+    align-items: left;
+    font-family: "Oswald";
+    font-size: 2vw;
+}
+
+.text2 h4{
+    margin: 5vw;
+}
+
+.machine-img img{
+    width: 30vw;
+}
+
+.qual{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.qual .text3{
+    width: 65vw;
+    align-items: left;
+    font-family: "Oswald";
+    font-size: 2vw;
+}
+
+.qual img{
+    width: 50vmin;
+}
+
+.text3 h4{
+    margin: 3vh;
+}
+
+.FooterContent{
+    margin-top: 20vh;
+    padding: 5vmin;
+    background-color: black;
+    color: white;
+}
+
+.FooterContent h3{
+    margin: 5vmin;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}

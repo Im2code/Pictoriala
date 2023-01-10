@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url("Oswald-Light.ttf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    margin: 10vmin;
+}
+
+#slider{
+    overflow: hidden;
+}
+
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin:0;
+    left: 0;
+    animation: 24s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left; 
+}
+
+@keyframes slider{
+    0% {
+        left:0%;
+    }
+    20%{
+        left:0%;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300;
+    }
+    100%{
+        left:-400%;
+    }
+}
+
+.container{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.83);
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+
+nav li, a, button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 2vw;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding:0 20px;
+}
+
+nav li a{
+    transition: all 0.3s ease 0s;
+}
+nav li a:hover{
+    color: red;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(142, 34, 34, 1);
+}
+
+nav img{
+    width: 15em;
+}
+
+
+
+.Intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin: 5vw;
+}
+.Intro img{
+    width: 40vw;
+}
+.text{
+    width: 50vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text h2{
+    padding: 3vh;
+    font-size: 3rem;
+}
+
+.text p{
+    padding: 3vh;
+    line-height: 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.Services{
+    display: flex;
+    justify-content: start;
+    align-items: top;
+    margin: 5vw;
+    margin-top: 40vh;
+}
+
+.Services img{
+    width: 50vw;
+}
+
+.text2{
+    margin-left: 5vw;
+    width: 50vw;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text2 h2{
+    text-align: center;
+    margin: 5vh;
+    font-size: 3rem;
+}
+
+.text2 p{
+    margin-bottom: 2.5vh;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.lstitems{
+    list-style: none;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.partners{
+    margin-top:30vmin;
+}
+
+.partners h2{
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+    font-size:3rem;
+    margin: 10vh;
+}
+
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(36, 20, 95);
+}
+
+.images img{
+    width: 10vw;
+    height: auto;
+    margin: 5vw;
+}
+
+.FooterContent{
+    margin-top: 20vh;
+    padding: 5vmin;
+    background-color: black;
+    color: white;
+}
+
+.FooterContent h3{
+    margin: 5vmin;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+}
